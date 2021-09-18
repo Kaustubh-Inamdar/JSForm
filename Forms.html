@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Form</title>
+	<link rel="stylesheet" href="style.css">
+	<script></script>
+</head>
+<body>
+	<h1>Details Form</h1>
+ <form class="formbox">
+ <input autofocus class="tf" type="text" name="first" placeholder="First name" required>
+ <input class="tf" type="text" name="last" placeholder="Last name" required>
+ <input class="tf" type="text" name="email" placeholder="Email ID" required>
+ <input class="tf" type="number" name="phno" placeholder="Mobile No." required>
+ <input class="tf" type="password" name="pass" placeholder="Password" required>
+ <div class="Gender">
+	<h2>Gender</h2>
+	<input  type="radio" name="gender" value="Male"><label>Male</label>
+	<input  type="radio" name="gender" value="Female"><label>Female</label>
+ </div>
+ <div class="Languages"> 
+<h2>Intrested Languages</h2> 
+  <input type="checkbox" value="Html"><label>Html</label>
+  <input type="checkbox" value="Java"><label>Java</label>
+  <input type="checkbox" value="JavScript"><label>JavaScript</label>
+  <input type="checkbox" value="Python"><label>Python</label>
+ </div>
+ <div class="City">
+   <label>Where would u like to work:</label>
+   <select>
+	   <option>Banglore</option>
+	   <option>Mumbai</option>
+	   <option>Chennai</option>
+	   <option>Delhi</option>
+   </select>
+ </div>
+ <input id="submit-btn" type="submit" value="Submit">
+ </form>
+ <script src="index.js"></script>
+</body>
+</html>
